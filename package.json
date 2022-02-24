@@ -1,0 +1,20 @@
+{
+  "name": "slingshot-takehome-CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "trie": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "commander": "^9.0.0",
+    "yargs": "^17.3.1"
+  }
+}
