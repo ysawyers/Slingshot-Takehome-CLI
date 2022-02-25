@@ -7,7 +7,7 @@
     "trie": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha bin/test.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "axios": "^0.26.0",
     "commander": "^9.0.0",
     "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.1"
   }
 }
